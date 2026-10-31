@@ -1,0 +1,10 @@
+.item {
+  background-color: #383838;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #e5e5e5;
+}
+
+.item p {
+  margin: 0;
+}
