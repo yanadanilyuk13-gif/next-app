@@ -1,6 +1,18 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 
-const Profile = () => {
+export const metadata: Metadata = {
+  title: 'Edit Profile',
+  description: 'Edit your user details and settings',
+};
+
+const EditProfile = () => {
+  return <div>EditProfile</div>;
+};
+
+export default EditProfile;
+
+/*const Profile = () => {
   return (
     <section>
       <h1>My Profile</h1>
@@ -17,3 +29,4 @@ const Profile = () => {
 };
 
 export default Profile;
+*/
